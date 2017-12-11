@@ -4,7 +4,7 @@ module Mammals
   end
 
   class CommonTraits
-    def self.feed_young
+    def feed_young
       puts "All mammals feed their young with milk"
     end
   end
@@ -23,5 +23,10 @@ module Mammals
 end
 
 
-Mammals::CommonTraits.feed_young
-Mammals.common_mammal_traits
+# Mammals.common_mammal_traits
+
+# geoff = Mammals::Biped.new
+# cat = Mammals::Quadruped.new
+# geoff.legs
+# cat.legs
+# cat.feed_young

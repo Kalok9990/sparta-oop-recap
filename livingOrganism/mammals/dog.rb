@@ -12,9 +12,15 @@ class Dog < Animal
   def number_of_legs
     Quadruped.legs
   end
+
+  def traits
+    # Animals.traits is the same as
+    self.class.traits
+  end
 end
 
 fido = Dog.new
 fido.speak
 fido.number_of_legs
 fido.breathe
+fido.traits

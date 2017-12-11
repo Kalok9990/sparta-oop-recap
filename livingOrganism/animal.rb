@@ -27,11 +27,11 @@ class Animal < LivingOrganism
   end
 end
 
-Animal.traits
-
-animal = Animal.new
-animal.breathe
-animal.eat
-animal.drink
-animal.speak
-animal.pro_create
+# Animal.traits
+#
+# animal = Animal.new
+# animal.breathe
+# animal.eat
+# animal.drink
+# animal.speak
+# animal.pro_create
